@@ -20,12 +20,15 @@
 .btn {
   width: 9rem;
   margin: 0 2rem;
-  transition: all 0.3s ease;
   cursor: pointer;
 }
 
-.btn:hover {
-  transform: scale(1.2);
+.btn:hover .icon {
+  border: 2px solid var(--yellow);
+}
+
+.btn:hover .btnTitle {
+  color: var(--yellow);
 }
 
 .icon {
@@ -36,5 +39,5 @@
   margin-top: 0.7rem;
   font-size: 1.5rem;
   text-align: center;
-  color: var(--white);
+  color: var(--light_gray);
 }
