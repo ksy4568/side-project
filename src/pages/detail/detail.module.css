@@ -1,0 +1,41 @@
+.container {
+  padding: var(--padding_desktop);
+  padding-top: var(--header_height);
+  height: 100%;
+}
+
+.shortDescription {
+  display: flex;
+}
+
+.bookImg {
+  flex: 1;
+  padding: 4rem;
+}
+
+.thumbnail {
+  width: 100%;
+}
+
+.descriptions {
+  flex: 1;
+  padding: 4rem;
+  color: var(--white);
+}
+
+.cardTitle {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.cardDescription {
+  margin-bottom: 1.8rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--brown);
+  font-size: 1.2rem;
+}
+
+.explanation {
+  width: 100vw;
+  height: 100vh;
+}
