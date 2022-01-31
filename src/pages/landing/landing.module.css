@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: var(--bg_light_brown);
+}
+
+.gretting {
+  font-size: 4rem;
+  color: var(--white);
+}
+
+.selectTab {
+  display: flex;
+  margin-top: 5rem;
+}
+
+.btn {
+  width: 9rem;
+  margin: 0 2rem;
+  cursor: pointer;
+}
+
+.btn:hover .icon {
+  border: 2px solid var(--yellow);
+}
+
+.btn:hover .btnTitle {
+  color: var(--yellow);
+}
+
+.icon {
+  width: 100%;
+}
+
+.btnTitle {
+  margin-top: 0.7rem;
+  font-size: 1.5rem;
+  text-align: center;
+  color: var(--light_gray);
+}
