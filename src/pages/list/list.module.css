@@ -13,18 +13,22 @@
   color: var(--white);
 }
 
-.contentList {
-  display: flex;
+.slider {
   position: relative;
   padding: var(--padding_desktop);
   overflow: hidden;
 }
 
-.contentList:hover .prevBtn {
+.contentList {
+  display: flex;
+  transition: all 0.3s ease;
+}
+
+.slider:hover .prevBtn {
   display: block;
 }
 
-.contentList:hover .nextBtn {
+.slider:hover .nextBtn {
   display: block;
 }
 
@@ -40,7 +44,9 @@
   top: 0;
   width: 50px;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: var(--light_black);
+  opacity: 0.6;
+  cursor: pointer;
 }
 
 .prevBtn {
