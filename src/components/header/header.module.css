@@ -1,0 +1,15 @@
+.container {
+  position: fixed;
+  width: 100%;
+  border-bottom: 1px solid var(--white);
+  background-color: transparent;
+}
+
+.contents {
+  margin: 0 auto;
+  padding: var(--padding_desktop);
+}
+
+.logoImg {
+  width: 2.8rem;
+}
