@@ -9,6 +9,7 @@
   --yellow: #ffeb60;
   --brown: #9f9a8f;
   --light_brown: rgba(167, 163, 154, 0.9);
+  --opacity_black: rgba(20, 20, 20, 0.7);
 
   /* btn */
   --btn_border: var(--black);
@@ -19,6 +20,7 @@
   --bg_brown: var(--brown);
   --bg_light_brown: var(--light_brown);
   --bg_yellow: var(--yellow);
+  --bg_opacity_black: var(--opacity_black);
 
   /* ----------------------- */
 

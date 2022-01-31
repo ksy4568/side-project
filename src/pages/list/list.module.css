@@ -15,7 +15,7 @@
 
 .slider {
   position: relative;
-  padding: var(--padding_desktop);
+  padding: 0 50px;
   overflow: hidden;
 }
 
@@ -25,28 +25,68 @@
 }
 
 .slider:hover .prevBtn {
-  display: block;
+  display: flex;
 }
 
 .slider:hover .nextBtn {
-  display: block;
+  display: flex;
 }
 
 .content {
+  position: relative;
   min-width: 20%;
-  padding: 0 0.2vw;
+  padding: 0 1vw;
+}
+
+.content:hover .bookDescription {
+  opacity: 1;
+}
+
+.thumbnail {
+  width: 100%;
+}
+
+.bookDescription {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  width: 90%;
+  height: 100%;
+  padding: 0.8rem;
+  color: var(--white);
+  background-color: var(--bg_opacity_black);
+  transition: all 0.3s ease;
+}
+
+.bookTitle {
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.bookExplanation {
+  display: flex;
+  margin-bottom: 8px;
+  font-size: 1rem;
+  color: var(--white);
+}
+
+.descriptionIcon {
+  margin-right: 5px;
 }
 
 .prevBtn,
 .nextBtn {
   display: none;
+  justify-content: center;
+  align-items: center;
   position: absolute;
   top: 0;
   width: 50px;
   height: 100%;
-  background-color: var(--light_black);
-  opacity: 0.6;
+  background-color: var(--bg_opacity_black);
   cursor: pointer;
+  z-index: 1;
 }
 
 .prevBtn {
@@ -55,4 +95,9 @@
 
 .nextBtn {
   right: 0;
+}
+
+.angle {
+  font-size: 3rem;
+  color: var(--white);
 }
