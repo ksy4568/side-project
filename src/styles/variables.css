@@ -23,6 +23,8 @@
   /* ----------------------- */
 
   /* content size */
+  --header_height: 65px;
+
   --width_desktop_lg: 1440px;
   --width_desktop_sm: 1140px;
   --width_tablet_lg: 960px;

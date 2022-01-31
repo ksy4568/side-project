@@ -1,0 +1,52 @@
+.container {
+  padding-top: var(--header_height);
+}
+
+.recentContent {
+  margin: 2.5rem 0;
+}
+
+.contentTitle {
+  margin-bottom: 1.5rem;
+  padding: var(--padding_desktop);
+  font-size: 2rem;
+  color: var(--white);
+}
+
+.contentList {
+  display: flex;
+  position: relative;
+  padding: var(--padding_desktop);
+  overflow: hidden;
+}
+
+.contentList:hover .prevBtn {
+  display: block;
+}
+
+.contentList:hover .nextBtn {
+  display: block;
+}
+
+.content {
+  min-width: 20%;
+  padding: 0 0.2vw;
+}
+
+.prevBtn,
+.nextBtn {
+  display: none;
+  position: absolute;
+  top: 0;
+  width: 50px;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.prevBtn {
+  left: 0;
+}
+
+.nextBtn {
+  right: 0;
+}
