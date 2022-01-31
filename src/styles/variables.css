@@ -21,4 +21,15 @@
   --bg_yellow: var(--yellow);
 
   /* ----------------------- */
+
+  /* content size */
+  --width_desktop_lg: 1440px;
+  --width_desktop_sm: 1140px;
+  --width_tablet_lg: 960px;
+  --width_tablet_sm: 720px;
+  --width_mobile_lg: 540px;
+  --width_mobile_sm: 320px;
+
+  --padding_desktop: 10px 50px;
+  --padding_tablet: 10px 20px;
 }
