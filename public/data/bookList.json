@@ -4,163 +4,217 @@
       "id": 1,
       "title": "탕부 하나님",
       "author": "팀 켈러",
+      "subject": "종교",
+      "publisher": "두란노",
       "published": "2010/01/03",
       "readDate": "2022/01/31",
-      "thumbnail": "images/testImg1.webp",
-      "description": "정말 재미있었다..."
+      "thumbnail": "/images/testImg1.webp",
+      "description": "정말 재미있었다...",
+      "score": 5
     },
     {
       "id": 2,
       "title": "결혼을 말하다",
       "author": "팀 켈러",
+      "subject": "종교",
+      "publisher": "두란노",
       "published": "2010/05/17",
       "readDate": "2022/01/31",
-      "thumbnail": "images/testImg2.webp",
-      "description": "정말 재미있었다..."
+      "thumbnail": "/images/testImg2.webp",
+      "description": "정말 재미있었다...",
+      "score": 5
     },
     {
       "id": 3,
       "title": "내가 만든 신",
       "author": "팀 켈러",
+      "subject": "종교",
+      "publisher": "두란노",
       "published": "2010/04/01",
       "readDate": "2022/01/31",
-      "thumbnail": "images/testImg3.webp",
-      "description": "정말 재미있었다..."
+      "thumbnail": "/images/testImg3.webp",
+      "description": "정말 재미있었다...",
+      "score": 5
     },
     {
       "id": 4,
       "title": "인생 질문",
       "author": "팀 켈러",
+      "subject": "종교",
+      "publisher": "두란노",
       "published": "2010/06/12",
       "readDate": "2022/01/31",
-      "thumbnail": "images/testImg4.webp",
-      "description": "정말 재미있었다..."
+      "thumbnail": "/images/testImg4.webp",
+      "description": "정말 재미있었다...",
+      "score": 5
     },
     {
       "id": 5,
       "title": "기도",
       "author": "팀 켈러",
+      "subject": "종교",
+      "publisher": "두란노",
       "published": "2010/09/12",
       "readDate": "2022/01/31",
-      "thumbnail": "images/testImg5.webp",
-      "description": "정말 재미있었다..."
+      "thumbnail": "/images/testImg5.webp",
+      "description": "정말 재미있었다...",
+      "score": 5
     },
     {
       "id": 6,
       "title": "결혼의 의미",
       "author": "팀 켈러",
+      "subject": "종교",
+      "publisher": "두란노",
       "published": "2010/12/12",
       "readDate": "2022/01/31",
-      "thumbnail": "images/testImg6.webp",
-      "description": "정말 재미있었다..."
+      "thumbnail": "/images/testImg6.webp",
+      "description": "정말 재미있었다...",
+      "score": 5
     },
     {
       "id": 7,
       "title": "탕부 하나님",
       "author": "팀 켈러",
+      "subject": "종교",
+      "publisher": "두란노",
       "published": "2010/01/03",
       "readDate": "2022/01/31",
-      "thumbnail": "images/testImg1.webp",
-      "description": "정말 재미있었다..."
+      "thumbnail": "/images/testImg1.webp",
+      "description": "정말 재미있었다...",
+      "score": 5
     },
     {
       "id": 8,
       "title": "결혼을 말하다",
       "author": "팀 켈러",
+      "subject": "종교",
+      "publisher": "두란노",
       "published": "2010/05/17",
       "readDate": "2022/01/31",
-      "thumbnail": "images/testImg2.webp",
-      "description": "정말 재미있었다..."
+      "thumbnail": "/images/testImg2.webp",
+      "description": "정말 재미있었다...",
+      "score": 5
     },
     {
       "id": 9,
       "title": "내가 만든 신",
       "author": "팀 켈러",
+      "subject": "종교",
+      "publisher": "두란노",
       "published": "2010/04/01",
       "readDate": "2022/01/31",
-      "thumbnail": "images/testImg3.webp",
-      "description": "정말 재미있었다..."
+      "thumbnail": "/images/testImg3.webp",
+      "description": "정말 재미있었다...",
+      "score": 5
     },
     {
       "id": 10,
       "title": "인생 질문",
       "author": "팀 켈러",
+      "subject": "종교",
+      "publisher": "두란노",
       "published": "2010/06/12",
       "readDate": "2022/01/31",
-      "thumbnail": "images/testImg4.webp",
-      "description": "정말 재미있었다..."
+      "thumbnail": "/images/testImg4.webp",
+      "description": "정말 재미있었다...",
+      "score": 5
     },
     {
       "id": 11,
       "title": "기도",
       "author": "팀 켈러",
+      "subject": "종교",
+      "publisher": "두란노",
       "published": "2010/09/12",
       "readDate": "2022/01/31",
-      "thumbnail": "images/testImg5.webp",
-      "description": "정말 재미있었다..."
+      "thumbnail": "/images/testImg5.webp",
+      "description": "정말 재미있었다...",
+      "score": 5
     },
     {
       "id": 12,
       "title": "결혼의 의미",
       "author": "팀 켈러",
+      "subject": "종교",
+      "publisher": "두란노",
       "published": "2010/12/12",
       "readDate": "2022/01/31",
-      "thumbnail": "images/testImg6.webp",
-      "description": "정말 재미있었다..."
+      "thumbnail": "/images/testImg6.webp",
+      "description": "정말 재미있었다...",
+      "score": 5
     },
     {
       "id": 13,
       "title": "탕부 하나님",
       "author": "팀 켈러",
+      "subject": "종교",
+      "publisher": "두란노",
       "published": "2010/01/03",
       "readDate": "2022/01/31",
-      "thumbnail": "images/testImg1.webp",
-      "description": "정말 재미있었다..."
+      "thumbnail": "/images/testImg1.webp",
+      "description": "정말 재미있었다...",
+      "score": 5
     },
     {
       "id": 14,
       "title": "결혼을 말하다",
       "author": "팀 켈러",
+      "subject": "종교",
+      "publisher": "두란노",
       "published": "2010/05/17",
       "readDate": "2022/01/31",
-      "thumbnail": "images/testImg2.webp",
-      "description": "정말 재미있었다..."
+      "thumbnail": "/images/testImg2.webp",
+      "description": "정말 재미있었다...",
+      "score": 5
     },
     {
       "id": 15,
       "title": "내가 만든 신",
       "author": "팀 켈러",
+      "subject": "종교",
+      "publisher": "두란노",
       "published": "2010/04/01",
       "readDate": "2022/01/31",
-      "thumbnail": "images/testImg3.webp",
-      "description": "정말 재미있었다..."
+      "thumbnail": "/images/testImg3.webp",
+      "description": "정말 재미있었다...",
+      "score": 5
     },
     {
       "id": 16,
       "title": "인생 질문",
       "author": "팀 켈러",
+      "subject": "종교",
+      "publisher": "두란노",
       "published": "2010/06/12",
       "readDate": "2022/01/31",
-      "thumbnail": "images/testImg4.webp",
-      "description": "정말 재미있었다..."
+      "thumbnail": "/images/testImg4.webp",
+      "description": "정말 재미있었다...",
+      "score": 5
     },
     {
       "id": 17,
       "title": "기도",
       "author": "팀 켈러",
+      "subject": "종교",
+      "publisher": "두란노",
       "published": "2010/09/12",
       "readDate": "2022/01/31",
-      "thumbnail": "images/testImg5.webp",
-      "description": "정말 재미있었다..."
+      "thumbnail": "/images/testImg5.webp",
+      "description": "정말 재미있었다...",
+      "score": 5
     },
     {
       "id": 18,
       "title": "결혼의 의미",
       "author": "팀 켈러",
+      "subject": "종교",
+      "publisher": "두란노",
       "published": "2010/12/12",
       "readDate": "2022/01/31",
-      "thumbnail": "images/testImg6.webp",
-      "description": "정말 재미있었다..."
+      "thumbnail": "/images/testImg6.webp",
+      "description": "정말 재미있었다...",
+      "score": 5
     }
   ]
 }

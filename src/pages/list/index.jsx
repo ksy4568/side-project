@@ -1,9 +1,11 @@
 import React, { useState, useEffect, useRef } from 'react';
+import { useNavigate } from 'react-router-dom';
 import styles from './list.module.css';
 
 function List() {
   const contentListRef = useRef();
-  const [books, setBooks] = useState([]);
+  const navigate = useNavigate();
+  const [books, setBooks] = useState([{}]);
 
   const scrollingContent = type => {
     switch (type) {
@@ -39,7 +41,14 @@ function List() {
           </div>
           <div ref={contentListRef} className={styles.contentList}>
             {books.map(book => (
-              <li className={styles.content} key={book.id}>
+              <li
+                className={styles.content}
+                key={book.id}
+                onClick={() =>
+                  navigate(`/detail/${book.id}`, { state: { book } })
+                }
+                aria-hidden
+              >
                 <img
                   className={styles.thumbnail}
                   src={book.thumbnail}
