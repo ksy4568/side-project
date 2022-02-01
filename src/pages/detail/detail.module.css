@@ -9,8 +9,14 @@
 }
 
 .bookImg {
-  flex: 1;
-  padding: 4rem;
+  display: flex;
+  position: relative;
+  margin: 4rem auto;
+  transition: all 0.6s ease;
+}
+
+.bookImg:hover {
+  transform: rotate3d(0, 1, 0, 30deg);
 }
 
 .thumbnail {
@@ -18,9 +24,16 @@
 }
 
 .descriptions {
-  flex: 1;
-  padding: 4rem;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  padding: 1.5rem;
   color: var(--white);
+  background-color: var(--bg_opacity_black);
+  transform: rotate3d(0, 1, 0, -180deg);
+  transition: all 0.6s ease;
 }
 
 .cardTitle {
