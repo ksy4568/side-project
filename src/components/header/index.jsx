@@ -10,9 +10,11 @@ function Header() {
         <Link to="/">
           <img className={styles.logoImg} src={logoImg} alt="logo" />
         </Link>
+
+        <div className={styles.loginBtn}>로그인</div>
       </section>
     </header>
   );
 }
 
-export default Header;
+export default React.memo(Header);
